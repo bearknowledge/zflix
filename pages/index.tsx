@@ -21,7 +21,7 @@ setTimeout(() => {
       <main className="flex w-full h-screen bg-[#221F1F] flex-col items-center justify-center ">
         { loading === true ?
        <img id="spinner" src='/netflix.gif'/> :
-       <div className='flex  bg-black flex-col relative items-center justify-center w-full h-[-webkit-fill-available]'>
+       <div className='flex  bg-black flex-col relative items-center justify-center w-full h-screen'>
         <h1 className='text-[white] absolute top-5 '>What do you want to know?</h1>
         
         <div className='grid grid-cols-2 gap-8'>

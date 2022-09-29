@@ -30,7 +30,7 @@ setTimeout(() => {
      </div>
      :
 
-       <div className='flex flex-col bg-[black] relative  w-full h-[-webkit-fill-available]'>
+       <div className='flex flex-col bg-[black] relative  w-full h-screen'>
        
         <div className="text-white">
         <span className=''></span>
@@ -48,7 +48,7 @@ setTimeout(() => {
           <p>Search for a movie, genre, show</p>
         </span>
         <h1 className='mt-10 text-xl p-4 laptop:flex laptop:flex-row laptop:justify-center laptop:text-2xl laptop:mt-10'>Recent Roles</h1>
-        <div  className='flex flex-col w-full space-y-[2px] mb-20 text-sm laptop:w-[40%] laptop:m-auto laptop:mb-32 laptop:text-2xl'>
+        <div  className='flex flex-col w-full space-y-[2px] mb-32 text-sm laptop:w-[40%] laptop:mx-auto laptop:text-2xl'>
         <a href="https://www.xsauce.io/" target="blank" className='h-[14%] w-full bg-[gray] flex flex-row items-center text-white font-thin laptop:rounded-tr laptop:rounded-tl  mobile:h-[90px]'> 
           
           <img className='h-full laptop:rounded-tl' src='/xsauce.jpeg'/>
