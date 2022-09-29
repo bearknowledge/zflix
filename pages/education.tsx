@@ -43,7 +43,7 @@ setTimeout(() => {
 
         </div>
         </div>
-        <div className='mobile:h-[40%] mb-4 flex flex-col space-y-4 pt-4 z-20 laptop:text-xl laptop:h-[60%]'>
+        <div className='mobile:h-[40%] mb-10 flex flex-col space-y-4 pt-4 z-20 laptop:text-xl laptop:h-[60%]'>
 <div className='flex flex-col justify-center items-center space-y-4 laptop:space-y-6'>
 <div className='mobile:text-[white] flex flex-row justify-center items-center z-20'>
 <p>Keiser University - Business Admin</p>
