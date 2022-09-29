@@ -43,7 +43,7 @@ setTimeout(() => {
 
         </div>
         </div>
-        <div className='mobile:h-[40%] flex flex-col space-y-4 pt-4 z-20 laptop:text-xl laptop:h-[60%]'>
+        <div className='mobile:h-[40%] mb-4 flex flex-col space-y-4 pt-4 z-20 laptop:text-xl laptop:h-[60%]'>
 <div className='flex flex-col justify-center items-center space-y-4 laptop:space-y-6'>
 <div className='mobile:text-[white] flex flex-row justify-center items-center z-20'>
 <p>Keiser University - Business Admin</p>
@@ -70,7 +70,7 @@ setTimeout(() => {
 </div>
 
 <span className='font-bold text-[20px] pl-4'>Popular on Resume</span>
-<div className='flex flex-row justify-center space-x-4 w-full h-[40%] z-20 overflow-clip mb-4 laptop:h-[60%]'>
+<div className='flex flex-row justify-center space-x-4 w-full h-[40%] z-20 overflow-x-clip laptop:h-[60%]'>
 <a href="/roles" className='flex flex-col justify-center items-center rounded-md mobile:w-[40%] bg-cyan-600 ml-4 hover:opacity-80'><img className="mobile:w-[50%] laptop:w-[15%]" src="roles.svg"/>Roles</a>
 <a href="/portfolio" className='flex flex-col justify-center items-center rounded-md mobile:w-[40%] bg-green-900 hover:opacity-80'><img className="mobile:w-[50%] laptop:w-[15%]" src="easel.svg"/>Portfolio</a>
 <a href="/" className='flex flex-col justify-center items-center rounded-md mobile:w-[40%] bg-orange-900 hover:opacity-80'><img className="w-[50%] laptop:w-[15%]" src="home.svg"/>Home</a>
