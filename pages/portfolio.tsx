@@ -32,12 +32,12 @@ setTimeout(() => {
 
        <div className='flex flex-col bg-black w-full h-screen'>
        
-        <div className="laptop:bg-[url('/piratesfull.jpeg')] bg-cover bg-top laptop:h-[-webkit-fill-available] text-[white] z-10 mobile:bg-[url('/pirates.jpeg')] bg-top h-[-webkit-fill-available]">
+        <div className="laptop:bg-[url('/piratesfull.jpeg')] bg-cover bg-top laptop:h-screen text-[white] z-10 mobile:bg-[url('/pirates.jpeg')] bg-top h-[-webkit-fill-available]">
         <span className='mobile:z-10  absolute bg-gradient-to-b from-transparent to-black w-full h-[62%] opacity-100 laptop:h-full laptop:z-0'></span>
         <div className='flex flex-col px-6 text-[white]'>
           <span className='flex flex-row justify-between items-center pt-10 z-20'>
           <a href='/' className='mobile:w-[7%] laptop:w-[3%]' ><img src='N.png'/></a>
-            <button type="button" className='text-xl hover:underline' onClick={() => router.back()}>&larr; Go Back</button>
+            <button type="button" className='text-xl hover:underline z-20' onClick={() => router.back()}>&larr; Go Back</button>
          </span>
 
         </div>
@@ -67,12 +67,12 @@ setTimeout(() => {
 </div>
 </div>
 
-<span className='flex flex-row justify-start font-bold text-[20px] mobile:text-sm ml-8 laptop:justify-center laptop:text-[40px] laptop:w-full laptop:text-gray'>Recent Work </span>
+<span className='flex flex-row justify-start font-bold text-[20px] mobile:text-sm ml-8 laptop:justify-center laptop:text-[40px] laptop:w-fit laptop:m-auto laptop:text-gray'>Recent Work </span>
 <div className='flex flex-row justify-center space-x-4 w-full  px-8 z-20 mobile:pb-5 mobile:h-[40%] laptop:h-full laptop:pt-32'>
 
-<a href="/roles" target="blank"  className='flex flex-row justify-center  mobile:w-[40%]  hover:opacity-80 laptop:w-[20%]'><img className="rounded-md laptop:scale-125 desktop:scale-300" src="404DAO.png"/></a>
-<a href="/portfolio" target="blank"  className='flex flex-row justify-center  mobile:w-[40%] laptop:w-[20%] hover:opacity-80'><img className="rounded-md laptop:scale-150 desktop:scale-300" src="STAN.png"/></a>
-<a href="/" target="blank" className='flex flex-row justify-center hover:opacity-80 mobile:w-[40%] laptop:w-[20%]'><img className="rounded-md laptop:scale-125 desktop:scale-300" src="XSAUCEAPP.png"/></a>
+<a href="https://404-rouge.vercel.app/" target="blank"  className='flex flex-row justify-center  mobile:w-[40%]  hover:opacity-80 laptop:w-[20%]'><img className="rounded-md laptop:scale-125 desktop:scale-300" src="404DAO.png"/></a>
+<a href="https://truestan.herokuapp.com/" target="blank"  className='flex flex-row justify-center  mobile:w-[40%] laptop:w-[20%] hover:opacity-80'><img className="rounded-md laptop:scale-150 desktop:scale-300" src="STAN.png"/></a>
+<a href="https://v0-pi.vercel.app/" target="blank" className='flex flex-row justify-center hover:opacity-80 mobile:w-[40%] laptop:w-[20%]'><img className="rounded-md laptop:scale-125 desktop:scale-300" src="XSAUCEAPP.png"/></a>
 
 </div>
 
