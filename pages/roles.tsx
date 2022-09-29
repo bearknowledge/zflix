@@ -30,7 +30,7 @@ setTimeout(() => {
      </div>
      :
 
-       <div className='flex flex-col bg-[black] relative  w-full h-screen'>
+       <div className='flex flex-col bg-[black] relative  w-full h-[-webkit-fill-available]'>
        
         <div className="text-white">
         <span className=''></span>

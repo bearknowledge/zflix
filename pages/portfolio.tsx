@@ -32,7 +32,7 @@ setTimeout(() => {
 
        <div className='flex flex-col bg-black w-full h-screen'>
        
-        <div className="laptop:bg-[url('/piratesfull.jpeg')] bg-cover bg-top laptop:h-screen text-[white] z-10 mobile:bg-[url('/pirates.jpeg')] bg-top h-screen">
+        <div className="laptop:bg-[url('/piratesfull.jpeg')] bg-cover bg-top laptop:h-[-webkit-fill-available] text-[white] z-10 mobile:bg-[url('/pirates.jpeg')] bg-top h-[-webkit-fill-available]">
         <span className='mobile:z-10  absolute bg-gradient-to-b from-transparent to-black w-full h-[62%] opacity-100 laptop:h-full laptop:z-0'></span>
         <div className='flex flex-col px-6 text-[white]'>
           <span className='flex flex-row justify-between items-center pt-10 z-20'>
