@@ -21,7 +21,7 @@ setTimeout(() => {
         <link rel="icon" href="" />
       </Head>
 
-      <main className="text-[white]">
+      <main className="text-[white] bg-black h-fit">
         { loading === true ?
          <div className="flex w-full h-screen bg-black flex-col items-center justify-center ">
        <svg id="spinner" className="animate-spin -ml-1 mr-3 h-20 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -31,10 +31,10 @@ setTimeout(() => {
      </div>
      :
 
-       <div className='flex flex-col bg-black relative w-full h-full'>
+       <div className='flex flex-col bg-black w-full h-screen'>
        
-        <div className="laptop:bg-[url('/mercerFull.jpeg')] bg-cover h-full text-[white] z-10 mobile:bg-[url('/mercerMe.svg')] h-[60%]">
-        <span className='mobile:z-10 bg-gradient-to-b from-transparent to-black absolute w-full h-[61%] opacity-100 laptop:h-[50%]'></span>
+        <div className="laptop:bg-[url('/mercerFull.jpeg')] bg-cover h-full text-[white] z-10 mobile:bg-[url('/mercerMe.svg')] h-[60%] relative">
+        <span className='mobile:z-10 bg-gradient-to-b from-transparent to-black absolute w-full h-[101%] opacity-100 laptop:h-[50%]'></span>
         <div className='flex flex-col px-6 text-[white]'>
           <span className='flex flex-row justify-between items-center pt-10 z-20'>
             <a href='/' className='mobile:w-[7%] laptop:w-[3%]' ><img src='N.png'/></a>
@@ -70,7 +70,7 @@ setTimeout(() => {
 </div>
 
 <span className='font-bold text-[20px] pl-4'>Popular on Resume</span>
-<div className='flex flex-row justify-center space-x-4 w-full h-[40%] z-20 overflow-clip pb-4 laptop:h-[60%]'>
+<div className='flex flex-row justify-center space-x-4 w-full h-[40%] z-20 overflow-clip mb-4 laptop:h-[60%]'>
 <a href="/roles" className='flex flex-col justify-center items-center rounded-md mobile:w-[40%] bg-cyan-600 ml-4 hover:opacity-80'><img className="mobile:w-[50%] laptop:w-[15%]" src="roles.svg"/>Roles</a>
 <a href="/portfolio" className='flex flex-col justify-center items-center rounded-md mobile:w-[40%] bg-green-900 hover:opacity-80'><img className="mobile:w-[50%] laptop:w-[15%]" src="easel.svg"/>Portfolio</a>
 <a href="/" className='flex flex-col justify-center items-center rounded-md mobile:w-[40%] bg-orange-900 hover:opacity-80'><img className="w-[50%] laptop:w-[15%]" src="home.svg"/>Home</a>
