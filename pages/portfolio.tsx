@@ -32,8 +32,8 @@ setTimeout(() => {
 
        <div className='flex flex-col bg-black w-full h-screen'>
        
-        <div className="laptop:bg-[url('/piratesfull.jpeg')] bg-cover bg-top laptop:h-screen text-[white] z-10 mobile:bg-[url('/pirates.jpeg')] bg-top h-full">
-        <span className='mobile:z-10  absolute bg-gradient-to-b from-transparent to-black w-full h-[64%] opacity-100 laptop:h-full laptop:z-0'></span>
+        <div className="laptop:bg-[url('/piratesfull.jpeg')] bg-cover bg-top laptop:h-screen text-[white] z-10 mobile:bg-[url('/pirates.jpeg')] relative bg-top h-full">
+        <span className='mobile:z-10 absolute bg-gradient-to-b from-transparent to-black w-full h-full opacity-100 laptop:h-full laptop:z-0'></span>
         <div className='flex flex-col px-6 text-[white]'>
           <span className='flex flex-row justify-between items-center pt-3 z-30'>
           <a href='/' className='mobile:w-[7%] laptop:w-[3%]' ><img src='N.png'/></a>
@@ -42,8 +42,8 @@ setTimeout(() => {
 
         </div>
         </div>
-        <div className='mobile:h-[50%] flex flex-col space-y-6 pt-4 z-20 laptop:text-xl laptop:absolute w-full h-fit top-32'>
-<div className='flex flex-col justify-center items-center space-y-4 laptop:hidden'>
+        <div className='mobile:h-[40%] flex flex-col space-y-6 z-20 laptop:text-xl laptop:absolute w-full h-fit top-32'>
+<div className='flex flex-col justify-center items-center laptop:hidden'>
 <div className='mobile:text-[white] flex flex-row justify-center items-center z-20 space-x-2 laptop:absolute top-10 laptop:text-[30px]'>
 <p>My Portfolio</p>
 </div>
