@@ -34,7 +34,7 @@ setTimeout(() => {
        <div className='flex flex-col bg-black w-full h-screen'>
        
         <div className="laptop:bg-[url('/mercerFull.jpeg')] bg-cover h-full text-[white] z-10 mobile:bg-[url('/mercerMe.svg')] h-[60%] relative">
-        <span className='mobile:z-10 bg-gradient-to-b from-transparent to-black absolute w-full h-[101%] opacity-100 laptop:h-[50%]'></span>
+        <span className='mobile:z-10 bg-gradient-to-b from-transparent to-black absolute w-full h-[101%] opacity-100 laptop:h-[100%]'></span>
         <div className='flex flex-col px-6 text-[white]'>
           <span className='flex flex-row justify-between items-center pt-10 z-20'>
             <a href='/' className='mobile:w-[7%] laptop:w-[3%]' ><img src='N.png'/></a>
