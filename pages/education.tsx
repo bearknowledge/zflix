@@ -16,11 +16,7 @@ setTimeout(() => {
 
   return (
     <div className="">
-      <Head>
-        <title>Zach Miller</title>
-        <link rel="icon" href="" />
-      </Head>
-
+    
       <main className="text-[white] bg-black h-fit">
         { loading === true ?
          <div className="flex w-full h-screen bg-black flex-col items-center justify-center ">
