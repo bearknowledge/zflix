@@ -70,7 +70,7 @@ setTimeout(() => {
 <span className='flex flex-row justify-start font-bold text-[20px] mobile:text-sm ml-8 laptop:justify-center laptop:text-[40px] laptop:w-fit laptop:m-auto laptop:text-gray'>Recent Work </span>
 <div className='flex flex-row justify-center space-x-4 w-full  px-8 z-20 mobile:pb-5 mobile:h-[40%] laptop:h-full laptop:pt-32'>
 
-<a href="https://404-rouge.vercel.app/" target="blank"  className='flex flex-row justify-center  mobile:w-[40%]  hover:opacity-80 laptop:w-[20%]'><img className="rounded-md laptop:scale-125 desktop:scale-300" src="404DAO.png"/></a>
+<a href="https://www.404DAO.io" target="blank"  className='flex flex-row justify-center  mobile:w-[40%]  hover:opacity-80 laptop:w-[20%]'><img className="rounded-md laptop:scale-125 desktop:scale-300" src="404DAO.png"/></a>
 <a href="https://truestan.herokuapp.com/" target="blank"  className='flex flex-row justify-center  mobile:w-[40%] laptop:w-[20%] hover:opacity-80'><img className="rounded-md laptop:scale-150 desktop:scale-300" src="STAN.png"/></a>
 <a href="https://v0-pi.vercel.app/" target="blank" className='flex flex-row justify-center hover:opacity-80 mobile:w-[40%] laptop:w-[20%]'><img className="rounded-md laptop:scale-125 desktop:scale-300" src="XSAUCEAPP.png"/></a>
 
